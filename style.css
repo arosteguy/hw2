@@ -5,9 +5,12 @@ body {
     background-image: url("https://images.app.goo.gl/A4fSatSTXH6gexwt9");
 }
 
-.wrapper {
-    max-width: 980px;
+#main-section
+#bio-image {
+    float:left
+
 }
+
 .navbar-brand {
     color: white;
     background: turquoise;
@@ -23,14 +26,8 @@ body {
 h2 {
     color:turquoise;
 }
-#bio-image {
-    float: left;
 
-}
-p { 
-    position: relative;
-    vertical-align: text-top;
-}
+
 
 
 
