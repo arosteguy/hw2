@@ -1,11 +1,12 @@
 body {
+
     margin-left: 40px;
     
     background-image: url("https://images.app.goo.gl/A4fSatSTXH6gexwt9");
 }
 
 .wrapper {
-    width: 980px;
+    max-width: 980px;
 }
 .navbar-brand {
     color: white;
@@ -13,9 +14,31 @@ body {
     
     padding: 5px;
 }
-.container {
-    float: right;
+#navbarNav {
+    padding-left: 350px;
+}
+.card {
+    border-width: 0, 0, 10px, 0;
 }
 h2 {
     color:turquoise;
 }
+#bio-image {
+    float: left;
+
+}
+p { 
+    position: relative;
+    vertical-align: text-top;
+}
+
+
+
+@media screen and (max-width 640px)
+
+.wrapper { 
+    width: 500px;
+
+}
+@media screen and (max-width 768px)
+@media screen and (max-width 980px)
