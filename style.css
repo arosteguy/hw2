@@ -17,25 +17,21 @@ body {
     
     padding: 5px;
 }
-#navbarNav {
+.navbar-nav {
     padding-left: 350px;
 }
-.card {
-    border-width: 0, 0, 10px, 0;
-}
+
+
 h2 {
     color:turquoise;
 }
 
-
+.footer {
+    border-top: 5px solid turquoise;
+}
 
 
 
 @media screen and (max-width 640px)
-
-.wrapper { 
-    width: 500px;
-
-}
 @media screen and (max-width 768px)
 @media screen and (max-width 980px)
