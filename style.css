@@ -2,9 +2,13 @@ body {
 
     margin-left: 40px;
     
-    background-image: url("https://images.app.goo.gl/A4fSatSTXH6gexwt9");
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png");
 }
-
+/* .clearfix::after{
+    clear: both;
+    content: "";
+    display: block;
+} */
 #main-section
 #bio-image {
     float:left
@@ -26,12 +30,18 @@ h2 {
     color:turquoise;
 }
 
-.footer {
+footer {
     border-top: 5px solid turquoise;
 }
 
 
 
-@media screen and (max-width 640px)
-@media screen and (max-width 768px)
-@media screen and (max-width 980px)
+@media screen and (max-width :640px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 980px){
+
+}
